@@ -1,0 +1,315 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+/* HEADER START */
+.header{
+    background-color: #f5f3eb;
+    height: 70px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.header ul{
+    list-style:  none;
+    display: flex;
+    gap: 30px;
+    margin-top: -35px;
+    margin-left: 620px;
+    color: #0c4944;
+    font-weight: bold;
+    font-size: 17px;
+}
+ .header img{
+    height: 70px;
+margin-top: 0px;
+margin-left: 100px;
+ }
+ .header h1{
+    color: #0c4944;
+    font-size: 22px;
+margin-top: -50px;
+margin-left: 180px;
+}
+form input{
+    border-radius: 50px;
+    border: 2px solid #0c4944;
+    height: 25px;
+    width: 145px;
+    margin-left: 1130px;
+    position: relative;
+    top: -63px;
+}
+form label{
+    
+ margin-left: 1100px;
+    position: relative;
+    top: -38px
+}
+/* HEADER AND */
+/* HOME START */
+.home{
+  color: #0c4944;
+}
+.home img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 1400px;
+}
+.home ul{
+    margin-left: 70px;
+    position: relative;
+    top: -420px;
+    list-style:  none;
+    display: flex;
+    gap: 30px;
+     color: #0c4944;
+    font-weight: bold;
+    font-size: 19px;
+}
+.home h1{
+    font-family: sans-serif;
+    font-size: 53px;
+  position: relative;
+    top: -440px;
+    margin-left: 110px;
+}
+.home p{
+        font-size: 20px;
+  position: relative;
+    top: -460px;
+    margin-left: 110px;
+}
+.home button{
+    background-color: #0c4944;
+    color: white;
+    width: 175px;
+    height: 55px;
+    border-radius: 50px;
+    border: none;
+     position: relative;
+    top: -460px;
+     margin-left: 110px;
+}
+.home button:hover{
+    background-color :#e6efe8 ;
+    color: #062926;
+      border: 1px solid #0a4440;
+}
+/* HOME AND */
+/* DESTINATION  SECTION START */
+.destination{
+    background-color: #f5f3eb;
+    height: 650px;
+    margin-top: -358px;
+    color: #0c4944;
+text-align: center;
+}
+.destination img{
+    height: 90px;
+    width: 90px;
+}
+.destination hr{
+    margin-top: -10px;
+}
+.destination h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.destination p{
+    font-size: 19px;
+    margin-top: -10px;
+}
+.cards{
+    display: flex;
+    gap: 30px;
+   justify-content: center;
+}
+.card1, .card2,  .card3 {
+    background-color: white;
+    height: 395px;
+    width: 330px;
+    border: none ;
+    border-radius: 12px;
+    box-shadow: 8px 5px  20px grey;
+    transition: 0.8s;
+}
+.card1:hover, .card2:hover, .card3:hover {
+    transform: scale(1.1);
+}
+.cards img{
+    height: 210px;
+    width: 330px;
+    border-radius: 12px;
+}
+.cards h1{
+    color: #062926;
+    font-size:25px ;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+}
+.cards p{
+    color: #0c4944;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    font-size: 17px
+}
+.cards button{
+     background-color: #0c4944;
+    color: white;
+    width: 125px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+}
+.cards button:hover{
+    background-color : #e6efe8 ;
+    color: #062926;
+       border: 1px solid #0a4440;
+}
+/* DESTINATION SECTION AND */
+/* ABOUT SECTION START */
+.about{
+    background-color: #e6efe8;
+    height: 370px;
+}
+.about img{ 
+ height: 250px;
+ width:430px;
+ border-radius: 7px;
+ margin-bottom: -300px;
+ margin-left: 150px;
+}
+.text{
+    margin-left: 700px;
+    margin-top: 60px;
+    color:#062926;
+}
+.text h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    color: #0f726a;
+}
+.text h1{
+    font-family:  sans-serif;
+    margin-top: -19px;
+}
+.text p{
+    color: #0a4440;
+        margin-top: -13px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+}
+.text button{
+    height: 45px;
+    width: 140px;
+    color: white;
+    background-color: #0a4440;
+    border-radius: 50px;
+    border: none;
+}
+.text button:hover{
+    background-color : #e6efe8 ;
+    color: #062926;
+    border: 1px solid #0a4440;
+}
+/* ABOUT SECTION AND */
+/* CONTACT SECTION START */
+.contact{
+    background-color: #f5f3eb;
+    color: #062926;
+    height: 350px;
+position: relative;
+top: -22px;
+}
+
+.info ul
+{
+    list-style: none;
+}
+.info img{
+    height: 22px;
+    width: 22px;
+}
+.align{
+margin-left: 150px;
+position: relative;
+top: 42px;
+ text-align: left;
+}
+.align h1{
+    margin-top: -10px;
+}
+.align p{
+    margin-top: -10px;
+}
+.info ul{
+    margin-left: 110px;
+    margin-top: 60px;
+}
+.info span{
+    margin-top: -120px;
+}
+.white{
+    background-color: rgba(255, 255, 255, 0.637);
+    height: 325px;
+    width: 440px;
+    margin-left: 650px;
+    margin-top: -327px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.white input{
+    height: 29px;
+    width: 300px;
+    border: 1px solid rgb(206, 200, 200);
+    border-radius: 7px;
+}
+.form{
+    margin-left: 70px;
+position: relative;
+top: 20px;
+}
+textarea{
+    height: 90px;
+    width: 300px;
+    border: 1px solid rgb(206, 200, 200);
+    border-radius: 7px;
+}
+.white button{
+     height: 43px;
+    width: 165px;
+    color: white;
+    background-color: #0a4440;
+    border-radius: 50px;
+    border: none;
+    margin-top: -120px;
+    margin-left: 5px;
+}
+.white button:hover{
+    background-color : #e6efe8 ;
+    color: #062926;
+       border: 1px solid #0a4440;
+}
+/* CONTACT SECTION AND */
+/* FOOTER SECTION START */
+.footer{
+    background-color: #0a4440;
+    height: 100px;
+    color: white;
+    position: relative;
+    top: -21px;
+}
+.icons img{
+    height: 25px;
+    width: 25px;
+}
+.footer h5{
+    margin-top: 50px;
+}
+
+/* FOOTER SECTION AND */
